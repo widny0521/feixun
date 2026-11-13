@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+config.local.json
+*.local.json
+*.secret
+
+# Runtime data and personal content
+*.db
+*.sqlite
+*.sqlite3
+memory/
+memories/
+logs/
+*.log
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+coverage.xml
+htmlcov/
+.coverage
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
